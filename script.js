@@ -27,10 +27,10 @@ function setDisplay(canDeploy) {
     var text = document.getElementById("text");
 
     if (canDeploy) {
-        image.src = "deploy-yes.jpg";
+        image.src = "images/yes/positive-server.png";
         text.innerText = "Да, можно деплоить сегодня!";
     } else {
-        image.src = "deploy-no.jpg";
+        image.src = "images/no/under-construction.png";
         text.innerText = "Нельзя деплоить сегодня.";
     }
 }
